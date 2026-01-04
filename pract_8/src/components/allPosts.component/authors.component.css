@@ -1,0 +1,125 @@
+.authors-page {
+    padding: 20px;
+}
+
+.authors-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-container {
+    background-color: #3b4059;
+    min-height: 100vh;
+    padding: 30px;
+    padding-top: 0;
+    color: white;
+}
+
+.page-title {
+    color: white;
+    text-align: left;
+    margin-top: 0;
+    padding: 20px 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.back-btn {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 15px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+.back-btn:hover {
+    background-color: white;
+    color: #3b4059;
+}
+
+.posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.post-card {
+    background-color: #3A405A;
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s;
+}
+
+.post-card:hover {
+    transform:scale(1.05);
+    box-shadow: 0 0 10px 0 grey;
+}
+
+.post-title-card {
+    font-size: 25px;
+    margin-top: 0;
+    color: white;
+    font-weight: normal;
+}
+
+.post-body {
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+
+.author-email {
+    color: #aaa;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.company-name {
+    font-size: 12px;
+    color: #888;
+    text-align: right;
+}
+
+.open-btn {
+    background-color: transparent;
+    color: white;
+    border: 0.5px solid rgb(197, 197, 197);
+    padding: 8px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.open-btn:hover {
+    background-color: #5d637a;
+}
+
+.author-card-center {
+    align-items: start;
+    text-align: center;
+}
+
+.full-link {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.full-link button {
+    width: 100%;
+}

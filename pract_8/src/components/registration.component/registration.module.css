@@ -1,0 +1,87 @@
+.h1 {
+    font-weight: bold;
+    margin: 0;
+}
+
+.button {
+    border-radius: 20px;
+    border: 1px solid #99B2DD;
+    background-color: #99B2DD;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    cursor: pointer;
+}
+
+.button:active {
+    transform: scale(0.95);
+}
+
+.button:focus {
+    outline: none;
+}
+
+.wrapper {
+    background-color: #F9DEC9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.input {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+}
+
+.form-container {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	transition: all 0.6s ease-in-out;
+}
+
+.errors {
+    padding-bottom: 10px;
+    width: 100%;
+}
+.errors li{
+    text-align: left;
+    list-style-type: none;
+    font-size: 13px;
+    color: red;
+    margin: 5px 0;
+}
+.password {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.passwordIcon {
+    width: 24px;
+    aspect-ratio: 1/1;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.passwordIcon img {
+    width: 100%;
+}
+
+.buttonWrapper {
+    display: flex;
+    column-gap: 10px;
+}

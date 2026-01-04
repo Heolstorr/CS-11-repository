@@ -1,0 +1,20 @@
+.main {
+    font-size: 20px;
+    color: white;
+    padding: 20px 40px;
+}
+
+.posts {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px 20px;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+@media screen AND (max-width: 600px) {
+    .posts {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

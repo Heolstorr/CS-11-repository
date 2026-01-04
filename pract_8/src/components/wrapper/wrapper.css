@@ -1,0 +1,12 @@
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.min-height {
+	min-height: calc(100vh - var(--footer-height) - var(--header-height));
+}
